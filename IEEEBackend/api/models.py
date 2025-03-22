@@ -12,7 +12,7 @@ class Message(models.Model):
     ]
 
     GOOD_OR_BAD = [
-        ('nil','NIL')
+        ('nil','NIL'),
         ('good','Good'),
         ('bad','Bad'),
     ]

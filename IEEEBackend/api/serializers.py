@@ -9,4 +9,4 @@ class ConversationSerializer(serializers.ModelSerializer):
 class MessageSerializer(serializers.ModelSerializer):
     class Meta:
         model = Message
-        fields = ['id', 'conversation', 'message', 'time', 'sent_by']  
+        fields = ['id', 'conversation', 'message', 'time', 'sent_by','real_time_feedback']  
