@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'api'
 ]
 
 MIDDLEWARE = [
@@ -76,9 +78,9 @@ WSGI_APPLICATION = 'IEEEBackend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'AIdatabase',
-        'USER': 'SuperCollaboration',
-        'PASSWORD': 'JaneStreetHireMePls',
+        'NAME': 'aidatabase',
+        'USER': 'jasonho',
+        'PASSWORD': 'abc123',
         'HOST': 'localhost',
         'PORT': '5432',
     }
