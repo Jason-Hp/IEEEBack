@@ -1,5 +1,6 @@
 from django.db import models
 
+app_name = 'api'
 
 class Conversation(models.Model):
     Title = models.CharField(max_length=100)
